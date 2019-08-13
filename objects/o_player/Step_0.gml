@@ -12,6 +12,20 @@ up_release = keyboard_check_released(vk_up);
 	switch (state) {
 		#region Move State
 			case player.moving:
+				// change direction of sprite
+				if (xspeed != 0) {
+					image_xscale = sign(xspeed);	
+				}
+				
+				// check whether we're moving left or right
+				if (right || left) {
+					xspeed = (right - left) * acceleration;
+					xspeed = clamp(xspeed, -max_speed, max_speed);
+				} else {
+					apply_friction(acceleration);
+				}
+				
+				move(o_solid);
 			break;
 		#endregion
 		#region Ledge Grab State
