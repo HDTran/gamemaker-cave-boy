@@ -12,6 +12,15 @@ up_release = keyboard_check_released(vk_up);
 	switch (state) {
 		#region Move State
 			case player.moving:
+				// check if player is on the ground
+				if (!place_meeting(x, y+1, o_solid)) {
+					yspeed += gravity_acceleration;
+					
+					// more code soon
+				} else {
+					yspeed = 0;	
+				}
+			
 				// change direction of sprite
 				if (xspeed != 0) {
 					image_xscale = sign(xspeed);	
@@ -19,7 +28,7 @@ up_release = keyboard_check_released(vk_up);
 				
 				// check whether we're moving left or right
 				if (right || left) {
-					xspeed = (right - left) * acceleration;
+					xspeed += (right - left) * acceleration;
 					xspeed = clamp(xspeed, -max_speed, max_speed);
 				} else {
 					apply_friction(acceleration);
