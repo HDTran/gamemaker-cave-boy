@@ -22,9 +22,21 @@ up_release = keyboard_check_released(vk_up);
 				if (!place_meeting(x, y+1, o_solid)) {
 					yspeed += gravity_acceleration;
 					
-					// more code soon
+					// player is in the air
+					sprite_index = s_player_jump;
+					image_index = (yspeed > 0);
+					
+					// control the jump height
+					if (up_release && yspeed < -6) {
+						yspeed = -3;
+					}
 				} else {
-					yspeed = 0;	
+					yspeed = 0;
+					
+					// jumping code
+					if (up) {
+						yspeed = jump_height;	
+					}
 				}
 			
 				// change direction of sprite
