@@ -35,7 +35,8 @@ up_release = keyboard_check_released(vk_up);
 					
 					// jumping code
 					if (up) {
-						yspeed = jump_height;	
+						yspeed = jump_height;
+						audio_play_sound(a_jump, 5, false);
 					}
 				}
 			
@@ -50,6 +51,10 @@ up_release = keyboard_check_released(vk_up);
 					xspeed = clamp(xspeed, -max_speed, max_speed);
 				} else {
 					apply_friction(acceleration);
+				}
+				
+				if (place_meeting(x, y + yspeed + 1, o_solid) && yspeed >0) {
+					audio_play_sound(a_step, 6, false);	
 				}
 				
 				move(o_solid);
