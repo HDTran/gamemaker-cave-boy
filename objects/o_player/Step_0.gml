@@ -101,6 +101,14 @@ up_release = keyboard_check_released(vk_up);
 		#endregion
 		#region Door State
 			case player.door:
+				sprite_index = s_player_exit;
+				// fade out
+				if (image_alpha > 0) {
+					image_alpha -= .05;	
+				} else {
+					// go to next room
+					room_goto_next();
+				}
 			break;
 		#endregion
 		#region Hurt State
