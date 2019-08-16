@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "16c11499-5128-49ab-b952-52cb9ed6c332",
+            "Value": {
+                "id": "be45feb6-431c-4c6f-9355-0b3d13eb7783",
+                "resourcePath": "sounds\/a_cave\/a_cave.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1d018287-605b-4db8-9cd1-27cc9a611611",
             "Value": {
                 "id": "0ba89e2c-41cb-496e-8146-7a52e57303a2",
@@ -132,6 +140,14 @@
                 "id": "54a5af9f-ecf7-4819-ae1f-91b2a2ceed95",
                 "resourcePath": "views\/4662da88-0d5d-4611-975e-83b27e19e8b6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "48233a08-d44b-43eb-8008-989a5ee11ae9",
+            "Value": {
+                "id": "ceb7eb03-bff5-4242-a8cd-bdd4ba60e69a",
+                "resourcePath": "fonts\/f_score\/f_score.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -335,6 +351,14 @@
             }
         },
         {
+            "Key": "ae32e7e1-ff2d-409c-bc74-4b310c679850",
+            "Value": {
+                "id": "cfcd10b3-9141-4b6f-a651-ef1cb2ae3e4e",
+                "resourcePath": "views\/ae32e7e1-ff2d-409c-bc74-4b310c679850.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b533d83e-62bd-4f98-9792-8fa81bf84e5b",
             "Value": {
                 "id": "4c7048e2-befb-42a9-a743-00f4637a5916",
@@ -351,11 +375,27 @@
             }
         },
         {
+            "Key": "d2a49672-3a4d-41d1-9136-f21fdfa7eb02",
+            "Value": {
+                "id": "bbc9026c-e4ec-4271-b845-936c87023369",
+                "resourcePath": "sounds\/a_title\/a_title.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d68a3b5d-9b95-4bbe-bf29-ec2ed670ed8e",
             "Value": {
                 "id": "304a71dd-97f5-430e-b93b-17e57a445d8a",
                 "resourcePath": "scripts\/apply_friction\/apply_friction.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e051a936-2ce8-4a1b-8684-e6007603c19f",
+            "Value": {
+                "id": "57ab61e0-429f-4301-aba1-10ce86cc3d5b",
+                "resourcePath": "sprites\/s_heart\/s_heart.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
