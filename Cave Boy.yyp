@@ -207,6 +207,22 @@
             }
         },
         {
+            "Key": "756b7261-11f9-4fa5-82bf-f6364123cfc5",
+            "Value": {
+                "id": "f63dbe37-dfca-470c-b9d1-8cbd10a78f1a",
+                "resourcePath": "views\/756b7261-11f9-4fa5-82bf-f6364123cfc5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "76a4f61f-e429-42c8-b7b1-3e4c3040e495",
+            "Value": {
+                "id": "42883621-de79-45d8-9921-97270abd1ec8",
+                "resourcePath": "sprites\/s_dirt_wall\/s_dirt_wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "773b196b-5968-4e54-adfa-3d3aeeb32228",
             "Value": {
                 "id": "61bb9d25-8c9b-47a7-9b98-ac0334577ac6",
@@ -236,6 +252,14 @@
                 "id": "0a16f513-95db-4532-856f-2c082e5eaaa8",
                 "resourcePath": "views\/7b60d4d0-5ae5-4418-825e-fe62c1c61dcc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "875e52b9-2a5f-411e-bf77-e3e1962cdd24",
+            "Value": {
+                "id": "a20a1d62-7f70-433c-8d83-5fdf341d55f6",
+                "resourcePath": "tilesets\/t_dirt\/t_dirt.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -332,6 +356,14 @@
                 "id": "304a71dd-97f5-430e-b93b-17e57a445d8a",
                 "resourcePath": "scripts\/apply_friction\/apply_friction.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e5d5c8b3-2800-49d5-9270-1a1cc2c8578c",
+            "Value": {
+                "id": "ae62cba8-f261-48e0-8b81-25131a560a2e",
+                "resourcePath": "sprites\/s_dirt\/s_dirt.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
