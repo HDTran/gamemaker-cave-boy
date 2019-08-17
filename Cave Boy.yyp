@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "2f1a4e26-b8e4-4d26-9ade-25fe817c5d63",
+            "Value": {
+                "id": "3b0e84ab-8d68-439b-8bef-79e83846913c",
+                "resourcePath": "scripts\/direction_move_bounce\/direction_move_bounce.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "30cae92e-4a05-41c0-ba37-d668ef134a6a",
             "Value": {
                 "id": "5639e27d-1261-4f9d-a533-7ee2724db70c",
@@ -252,6 +260,14 @@
                 "id": "03541ecd-99de-4843-ad5b-41299ae264c2",
                 "resourcePath": "objects\/o_player\/o_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5d40ae2b-2282-4b87-be62-7d739727b129",
+            "Value": {
+                "id": "6eca9cf2-477d-4ef5-aa35-f916ef74144a",
+                "resourcePath": "scripts\/take_damage\/take_damage.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -407,6 +423,14 @@
             }
         },
         {
+            "Key": "a60a0c11-c7f3-46c9-adda-18dffc6b7050",
+            "Value": {
+                "id": "85a79cd1-23e1-4107-a6a5-cbbcf92a173c",
+                "resourcePath": "sounds\/a_ouch\/a_ouch.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a90b6357-8128-4984-af97-72d859123f5c",
             "Value": {
                 "id": "61859041-219e-43ef-b3ba-1ff37bd990a0",
@@ -545,7 +569,9 @@
     ],
     "script_order": [
         "d68a3b5d-9b95-4bbe-bf29-ec2ed670ed8e",
-        "5e589e5a-7264-4bbf-bf81-8bca897ef290"
+        "5e589e5a-7264-4bbf-bf81-8bca897ef290",
+        "5d40ae2b-2282-4b87-be62-7d739727b129",
+        "2f1a4e26-b8e4-4d26-9ade-25fe817c5d63"
     ],
     "tutorial": ""
 }

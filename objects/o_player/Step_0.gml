@@ -113,10 +113,42 @@ up_release = keyboard_check_released(vk_up);
 		#endregion
 		#region Hurt State
 			case player.hurt:
+				sprite_index = s_player_hurt;
+				
+				// change direction as we fly around
+				if (xspeed != 0) {
+					image_xscale = sign(xspeed);	
+				}
+				
+				if (!place_meeting(x, y + 1, o_solid)) {
+					yspeed += gravity_acceleration;	
+				} else {
+					yspeed = 0;
+					apply_friction(acceleration);
+				}
+				
+				direction_move_bounce(o_solid);
+				
+				// change back to other states
+				if (xspeed == 0 && yspeed == 0) {
+					// check health
+					if (o_player_stats.hp <= 0) {
+						state = player.death;	
+					} else {
+						image_bleed = c_white;
+						state = player.moving;
+					}
+				}
 			break;
 		#endregion
 		#region Death State
 			case player.death:
+				with (o_player_stats) {
+					hp = max_hp;
+					sapphires = 0;
+				}
+				
+				room_restart();
 			break;
 		#endregion
 	}
