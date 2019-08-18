@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "23c50aca-db6d-4f81-b217-395f6340a9f2",
+            "Value": {
+                "id": "3a95983d-d768-4ddd-9eb7-d895924b4fe2",
+                "resourcePath": "sounds\/a_bat\/a_bat.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "26bc6ea1-78c6-4359-9b88-d6d503b4cf27",
             "Value": {
                 "id": "fbbbfc34-88c8-47b0-96e9-7bb102e32061",
@@ -244,6 +252,14 @@
                 "id": "afc9e06e-7f02-4a88-81ee-eb798b4a2c7c",
                 "resourcePath": "views\/4de9bd62-a7ea-43a0-a6f7-150bcd50d524.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "507138b2-0f11-40af-8fb2-847a246cf0da",
+            "Value": {
+                "id": "c2a72263-7192-4385-8c79-0b111507eb7b",
+                "resourcePath": "sounds\/a_snake\/a_snake.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -412,6 +428,14 @@
                 "id": "d27e6d24-74cd-4c1b-8483-1d3683b0bacc",
                 "resourcePath": "views\/8b9c418e-494c-446b-85a8-ec9b507050b1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8d16c9ab-cc5e-4efe-99e8-340003a41a61",
+            "Value": {
+                "id": "18863cea-f3e8-494f-bca6-cb82013cde5e",
+                "resourcePath": "objects\/o_enemy_parent\/o_enemy_parent.yy",
+                "resourceType": "GMObject"
             }
         },
         {
