@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "107c9073-579a-47eb-8835-28daadf43871",
+            "Value": {
+                "id": "4579a9b6-53e0-4de0-a744-b0a13a014e0e",
+                "resourcePath": "sprites\/s_bat_fly\/s_bat_fly.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "124c0c25-7ec1-4068-aa17-1372dbe0dadb",
             "Value": {
                 "id": "8ab3c9ac-35f2-4d90-b200-4ae427aa2246",
@@ -292,6 +300,14 @@
                 "id": "385c9b19-08bc-4c0b-a6c5-3e85cec89a89",
                 "resourcePath": "sounds\/a_step\/a_step.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "67d9ee57-226f-4add-9df8-1f44c3e99037",
+            "Value": {
+                "id": "ec5a1059-8d4d-47db-a3ea-64d21933fbda",
+                "resourcePath": "sprites\/s_bat_idle\/s_bat_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -540,6 +556,14 @@
                 "id": "304a71dd-97f5-430e-b93b-17e57a445d8a",
                 "resourcePath": "scripts\/apply_friction\/apply_friction.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "dbd21c3c-6d20-486b-ae54-b440ec8fbd39",
+            "Value": {
+                "id": "b4e43e8b-d086-4dbf-8520-96ba28a00cc6",
+                "resourcePath": "objects\/o_bat\/o_bat.yy",
+                "resourceType": "GMObject"
             }
         },
         {
