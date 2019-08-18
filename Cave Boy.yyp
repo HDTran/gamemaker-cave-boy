@@ -567,6 +567,14 @@
             }
         },
         {
+            "Key": "b5ec5d59-73f4-4954-a071-08e114ab20d9",
+            "Value": {
+                "id": "6869d47a-cc8f-44ae-bf60-c8ae796e2b1c",
+                "resourcePath": "sprites\/s_boss\/s_boss.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c43c732a-fd7b-423d-9d82-37930c6ee5fe",
             "Value": {
                 "id": "4d7aba7b-3e79-488e-adba-80dea34df8e2",
